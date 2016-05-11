@@ -1,9 +1,28 @@
 
 body {background:white;}
+h1, .heading-xxlarge     {
+    padding:20px 0;
+    font-weight: 400;
+    font-size: 64px;
+    line-height:58px;
+}
+h2.phone {
+    margin-top:15px;
+    padding:15px 0;
+	font-size:2.0em;
+	color:#66B0E8;
+}
+hr {
+    background:none;
+    border:none;
+    border-bottom:solid 1px #d2d2d2 ;
+    padding:15px 0;
+    margin-bottom: 20px;
+}
 .notice-red {
 	padding: 18px;
     margin: 36px 0;
-	background: #999;
+	background: white;
     border-left: 3px solid #CC0104;
     font-size:18px;
     line-height:20px;
@@ -11,10 +30,10 @@ body {background:white;}
 }
 ul.notice-black-line {
 	padding: 18px 18px 10px 18px;
-    margin: 15px 0px;
-    margin-top:0px;
-	background: #D9D7D7;
-    border-left: 3px solid #000;
+    margin: 36px 0px;
+    
+	background: #fffab3;
+    border-left: 3px solid #CC0104 ;
     font-size:16px;
     line-height:18px;
     color:#333;
@@ -22,9 +41,9 @@ ul.notice-black-line {
 }
 ul.notice-red-line {
 	padding: 18px;
-    margin: 15px 20px;
-    margin-top:0px;
-	background: #D9D7D7;
+    margin: 36px 0px;
+   
+	background: #fffab3;
     border-left: 3px solid #CC0104;
     font-size:16px;
     line-height:18px;
@@ -36,10 +55,7 @@ ul.notice-red-line {
 	padding-left: 18px;
 	
 }
-h2.phone {
-	font-size:2.3em;
-	color:#66B0E8;
-}
+
 h2.subhead {
 	font-size:2em;
 	line-height:1.4em;
@@ -55,7 +71,7 @@ h2.subhead {
 	max-width: 612px;
 }
 .notice-red li {
-	 color:white;
+	 color:#333;
 	     margin-top: 15px;
 		 max-width: 612px;
 	}
@@ -85,6 +101,7 @@ li.black:before {
     top: 0.9em;
     position: relative;
 }
+
 li.white:before { 
     content: "";
     border-color: transparent white;
@@ -131,7 +148,7 @@ span:hover:before {
     float: left;
 }
 .search {
-	margin-left:20px;
+	margin-left:00px;
     display: block;
     float: left;
 }
@@ -173,6 +190,9 @@ input[type='text'] {
     background: url("http://nhs-design.herokuapp.com/images/icon-search.svg") center center no-repeat #00365D;
     background-size: 16px;
     border: 1px solid #00365D;
+}
+input[type='checkbox'], input[type='radio'] {
+    display: inline-block;
 }
 #checkboxes label {
   float: left;
@@ -244,7 +264,7 @@ a:link, .link {
     border-radius: 0;
     -webkit-appearance: none;
     text-decoration: none !important;
-	
+	margin-bottom:20px;
 }
 
 

@@ -53,7 +53,8 @@ app.use(function (req, res, next) {
 // set up sessions
 app.use(session({
   secret: 'this is actually public'
-}));
+,resave: true,
+    saveUninitialized: true}));
 
 // give views/layouts direct access to session data
 app.use(function(req, res, next){

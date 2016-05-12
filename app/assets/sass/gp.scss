@@ -67,7 +67,7 @@ ul.notice-red-line {
     color:#333;
 	
 }*/
-.alternatives {
+ul.alternatives {
 	padding-left: 18px;
 	
 }
@@ -173,7 +173,7 @@ span:hover:before {
 }
 
 .search input[type='text'] {
-   /* display: none;*/
+   display:inline-block;
     box-sizing: border-box;
     float: left;
     height: 32px;
@@ -187,7 +187,7 @@ input[type='text'] {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    display: block;
+    display:inline-block;
     width: 100%;
     margin: 16px 0 32px 0;
     padding: 0 4px;
@@ -198,7 +198,9 @@ input[type='text'] {
     line-height: 48px;
 }
 
-
+input[type='checkbox'], input[type='radio'] {
+    display:inline-block!important;
+}
 .search button {
     box-sizing: border-box;
     float: left;

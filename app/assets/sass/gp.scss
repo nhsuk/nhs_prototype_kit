@@ -15,7 +15,7 @@ h2.phone {
 hr {
     background:none;
     border:none;
-    border-bottom:solid 1px #d2d2d2 ;
+    border-bottom:solid 1px #333 ;
     padding:15px 0;
     margin-bottom: 20px;
 }
@@ -28,22 +28,10 @@ hr {
     line-height:20px;
 	max-width: 612px;
 }
-ul.notice-black-line {
-	padding: 18px 18px 10px 18px;
-    margin: 36px 0px;
-    
-	background: #fffab3;
-    border-left: 3px solid #CC0104 ;
-    font-size:16px;
-    line-height:18px;
-    color:#333;
-	max-width: 612px;
-}
+
 .notice-red-line {
 	padding: 18px;
     margin: 36px 0px;
-   
-	/*background: #fdc3c5;*/
     background:#fffab3;
     border-left: 3px solid #CC0104;
     font-size:16px;
@@ -51,11 +39,19 @@ ul.notice-black-line {
     color:#CC0104;
 	max-width: 612px;
 }
-
+ul.notice {
+	padding: 18px;
+    margin: 36px 0px;
+	background: #fffab3;
+    border-left: 3px solid #FCDF03;
+    font-size:16px;
+    line-height:18px;
+    color:#333;
+	max-width: 612px;
+}
 ul.notice-red-line {
 	padding: 18px;
     margin: 36px 0px;
-   
 	background: #fffab3;
     border-left: 3px solid #CC0104;
     font-size:16px;
@@ -136,13 +132,17 @@ li.white:before {
 	
 }
 
-
+details summary:focus {
+    outline:none !important;
+}
 
 .rating {
 	width: 100%;
 	margin: 25px 30px;
 }
-
+/*.img.rating {
+	padding-right:10px;
+}
 span {
 	font-size: 20px;
 	color: orange;
@@ -153,7 +153,7 @@ span:hover:before {
 	content: "\2605";
 	position: absolute;
 	color: orange;
-}
+}*/
 .callout.link-box {
     padding-left: 18px;
     border: none;
@@ -248,13 +248,13 @@ table {
     margin:4%;
 }
 
-th, td {
+.left60 th, td {
     width:75%;
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
-.right th, td {
+.right40 th, td {
 	width:25%;
 }
 .button:link, .button:hover, .button:focus, .button:visited {

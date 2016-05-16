@@ -1,15 +1,20 @@
 
 body {background:white;}
-h1, .heading-xxlarge     {
+/*h1, .heading-xxlarge     {
     padding:20px 0;
     font-weight: 400;
     font-size: 64px;
     line-height:58px;
+}*/
+.heading-xxlarge, .markdown-content h1 {
+    font-size: 3.8rem;
+    line-height:4.5rem;
 }
+
 h2.phone {
     margin-top:15px;
     padding:15px 0;
-	font-size:2.0em;
+	font-size:2.0rem;
 	color:#66B0E8;
 }
 hr {
@@ -70,8 +75,9 @@ ul.alternatives {
 }
 
 h2.subhead {
-	font-size:2em;
-	line-height:1.4em;
+	font-size:2.8rem;
+	line-height:2.4rem;
+    margin-bottom:3%;
 	
 }
 .notice-green {

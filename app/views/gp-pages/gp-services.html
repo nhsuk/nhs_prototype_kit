@@ -3,22 +3,33 @@
 {% block content %}
 
 <main id="content" role="main">
-
+<div class="module">
 <h1 class="heading-xxlarge">Street Lane Practice</h1>
 
 <p>12 Devonshire Avenue, Leeds, West Yorkshire, LS8 1AY</p> 
 
 
 <ul>
-<li class="black"><a class="link" href="https://www.google.co.uk/maps/place/Devonshire+Ave,+Leeds,+West+Yorkshire+LS8+1AY/@53.8433464,-1.5154174,17z/data=!3m1!4b1!4m2!3m1!1s0x48795ba4c4865f53:0x88630d5f1ae46082" target="_blank">View on a map and get directions</a></li>
+<li><a class="link" href="https://www.google.co.uk/maps/place/Devonshire+Ave,+Leeds,+West+Yorkshire+LS8+1AY/@53.8433464,-1.5154174,17z/data=!3m1!4b1!4m2!3m1!1s0x48795ba4c4865f53:0x88630d5f1ae46082" target="_blank">View on a map and get directions</a></li>
 </ul>
 
 
 <h2 class="phone">Call 0113 2371128</h2>
-<hr>
+</div>
+    <div class="module">
+        
+        
+
+        
+        
 <h2 class="subhead">Our Services</h2>
-<ul>
-<li><h3>Cardiology - Street Lane Services</h3></li>
+        
+<details role="group">
+        <summary class="more-info" role="button" aria-controls="details-content-3" tabindex="0" aria-expanded="false">
+          <span>Cardiology - Street Lane Services</span>
+        </summary>
+        <div id="details-content-3" aria-hidden="true">
+
 <ul>
     <li>This clinic is available to patients from within and outside Street Lane Practice via Choose and Book.
 It is run by 2 Consultant Cardiologists from Leeds General Infirmary.
@@ -29,23 +40,64 @@ Conditions commonly seen include headaches, constipation, funny turns and asthma
 There is a full list on our website.</li>
 <li>This service requires a referral by your GP</li>
     </ul>
-<li><h3>Dermatology specialist clinic - Street Lane Services Dermatology</h3></li>
+        </div>
+      </details>
+<details role="group">
+        <summary class="more-info" role="button" aria-controls="details-content-3" tabindex="0" aria-expanded="false">
+          <span>Child health and development - Street Lane Services Paediatrics</span>
+        </summary>
+        <div id="details-content-3" aria-hidden="true">
+<ul>
+    <li>Consultant paediatricians from local hospitals see patients referred from within Street Lane Practice or from other GP surgeries in Leeds via Choose and Book.
+Conditions commonly seen include headaches, constipation, funny turns and asthma.
+There is a full list on our website.
+</li>
+    <li>This service requires a referral by your GP</li>
+    </ul>
+            </div>
+      </details>     
+<details role="group">
+        <summary class="more-info" role="button" aria-controls="details-content-3" tabindex="0" aria-expanded="false">
+          <span>Dermatology specialist clinic - Street Lane Services Dermatology</span>
+        </summary>
+        <div id="details-content-3" aria-hidden="true">
 <ul>
     <li>We run a specialist clinic including a Consultant Dermatologist, GPs with Special interest in Dermatology and specialist nurses.
 They see patients referred from within Street Lane Practice. Patients from throughout Leeds can be referred via Choose and Book.
 Please see the full range of conditions treated and services offered on our Street Lane Practice website</li>
 <li>This service requires a referral by your GP</li>
     </ul>
-<li><h3>Learning disability health check</h3></li>
+        </div>
+      </details>      
+        
+<details role="group">
+        <summary class="more-info" role="button" aria-controls="details-content-3" tabindex="0" aria-expanded="false">
+          <span>Learning disability health check</span>
+        </summary>
+        <div id="details-content-3" aria-hidden="true">
 <ul>
     <li>You can attend this service without a referral</li>
     </ul>
-<li><h3>Long-Acting Reversible Contraception (LARC - eg IUD or implant)</h3></li>
+            </div>
+      </details> 
+        
+  <details role="group">
+        <summary class="more-info" role="button" aria-controls="details-content-3" tabindex="0" aria-expanded="false">
+          <span>Long-Acting Reversible Contraception (LARC - eg IUD or implant)</span>
+        </summary>
+        <div id="details-content-3" aria-hidden="true">
 <ul>
     <li>Members of our medical and nursing team can fit coils and contraceptive implants on patients registered at Street Lane Practice..
 You can attend this service without a referral</li>
     </ul>
-<li><h3>Minor surgery (e.g. removal of moles and skin lesions) - provided in-house</h3></li>
+            </div>
+      </details>         
+        
+<details role="group">
+        <summary class="more-info" role="button" aria-controls="details-content-3" tabindex="0" aria-expanded="false">
+          <span>Minor surgery (e.g. removal of moles and skin lesions) - provided in-house</span>
+        </summary>
+        <div id="details-content-3" aria-hidden="true">
 <ul>
     <li>We provide a minor surgery service for patients registered at Street Lane Practice. Patients can be referred from other GPs via choose and book as we have 3 GPs with Special Interest in Minor Surgery.</li>
     </ul>
@@ -59,18 +111,20 @@ You can attend this service without a referral</li>
 <li>This service requires a referral by your GP</li>
     </ul>
 </ul>
-    <hr>   
-    <ul>
-<li class="black"><a class="link" href="gp-home" target="_blank">GP home page</a></li>
-<li class="black"><a class="link" href="gp-prescriptions" target="_blank">Order a repeat prescription</a></li>
-<li class="black"><a class="link" href="gp-services" target="_blank">Book a GP appointment</a></li>
-</ul>
-<hr>
+        </div>
+      </details>    
+
+
+
+
+ </div>  
+    
+<div class="module">
 <ul>
   
     <li><input type="checkbox"> Remember Street Lane Practice as your local GP</li>
 
-  </ul>
+  </ul></div>
 </main>
 
 {% endblock %}

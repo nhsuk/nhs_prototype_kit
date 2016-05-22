@@ -3,7 +3,7 @@
 {% block content %}
 
 <main id="content" role="main">
-
+<div class="module">
 <h1 class="heading-xxlarge">Book a GP appointment at Street Lane Practice</h1>
 
 <p>12 Devonshire Avenue, Leeds, West Yorkshire, LS8 1AY</p> 
@@ -14,10 +14,10 @@
 
 <h2 class="phone">Call 0113 2371128</h2>
 
+</div>
 
-
-  
-<p>You can book an appointment online if you have registered an online account. Street Lane Practice uses a system called SystmOnline to do this.</p></div>
+  <div class="module">
+<p>You can book an appointment online if you have registered an online account. Street Lane Practice uses a system called SystmOnline to do this.</p>
   <ul class="notice-red-line" role="note" aria-label="Information">
    <li>You'll need your SystmOnline username and password</li>
 
@@ -37,9 +37,9 @@
 <li>Dr Joanna Hart</li>
 </ul>
 
-
-<a href="javascript:void(0);" >Book other services offered at the practice</a>
-<hr>
+<a href="gp-services" >Book other services offered at the practice</a>
+</div>
+    <div class="module">
 <p>If you have booked an appointment you can prepare by reading about your symptoms or condition</p>
 
 <div class="search-box"><form class="search">
@@ -47,11 +47,12 @@
       <button type="submit">Search</button>
     </form></div>
 
-<hr>
+</div>
+    <div class="module">
 <ul class="notice">
 <li><input type="checkbox"> Remember Street Lane Practice as your local GP</li>
 
-</ul>
+</ul></div>
 </main>
 
 {% endblock %}

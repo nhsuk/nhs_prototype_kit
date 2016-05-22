@@ -3,7 +3,7 @@
 {% block content %}
 
 <main id="content" role="main">
-
+<div class="module">
 <h1 class="heading-xxlarge">Street Lane Practice</h1>
 
 <p>12 Devonshire Avenue, Leeds, West Yorkshire, LS8 1AY</p> 
@@ -14,8 +14,8 @@
 
 <h2 class="phone">Call 0113 2371128</h2>
 
-
-
+</div>
+<div class="module">
 <div class="notice-red-line">
   <ul>
       <h2 class="subhead">Reception is closed now</h2>
@@ -75,7 +75,8 @@
   </div>
 </details>
 
-<hr>
+</div>
+    <div class="module">
 <h2 class="subhead">Registering as a new patient</h2>
 
 
@@ -89,29 +90,32 @@
     <a style="font-size:18px; padding:0;" href="javascript:void(0);">Read 21 patient reviews</a>
 </div>
 
-<hr>
+</div>
+    <div class="module">
 <h2 class="subhead">Order a repeat prescription</h2>
 <p>You can order a repeat prescription online if you are registered</p>
 <p>You can also set up a repeat prescription with a pharmacy</p>
 <a href="gp-prescriptions" class="button ">Order a repeat prescription</a>
 
-<hr>
+</div>
+    <div class="module">
 <h2 class="subhead">Book a GP appointment</h2>
     <p>You can book an appointment with a GP online</p>
     <a href="gp-book-appointment" class="button ">Book a GP appointment</a><br />
-    <a href="javascript:void(0);" >Book other services offered at the practice</a>
+    <a href="gp-services" >Book other services offered at the practice</a>
 <p>If you have booked an appointment you can prepare by reading about your symptoms or condition</p>
 
 <div class="search-box"><form class="search">
       <input type="text">
       <button type="submit">Search</button>
     </form></div>
-<hr>
+</div>
+    <div class="module">
 <h2 class="subhead">Other local health services</h2>
 <p>If you can't get an appointment immediately, you may be able to get help at a <a class="link" href="javascript:void(0);">Pharmacy</a> or <a class="link" href="javascript:void(0);">Walk in centre.</a></p>
 <a href="javascript:void(0);" >View local Pharmacies and Walk in Centres</a>
-
-<hr>
+</div>
+<div class="module">
 
 
   <ul>
@@ -121,7 +125,7 @@
 <ul class="notice">
 <li><input type="checkbox"> Remember Street Lane Practice as your local GP</li>
 
-</ul>
+</ul></div>
 </main>
 
 {% endblock %}
